@@ -106,13 +106,13 @@ body{
 }
 
 .website .contenedor-textos-main{
-    width: 40%;
+    width: 48%;
 }
 
 .parrafo{
     text-align: justify;
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .cta{
@@ -232,11 +232,26 @@ footer{
         font-size: 50px;
     }
 
+    .website{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .website img {
+        width: 100%;
+    }
+
+    .website .parrafo{
+        width: 100%;
+        margin-top: 20px;
+    }
+
     /* Cards */
 
     .card{
         width: 90%;
-        margin-bottom: 20px;
+        margin-bottom: 2s0px;
     }
 
     /* galeria */
@@ -254,6 +269,7 @@ footer{
     .last-section .contenedor-textos-main{
         width: 98%;
         margin-bottom: 20px;
+        margin-top: 20px;
     }
 
 
